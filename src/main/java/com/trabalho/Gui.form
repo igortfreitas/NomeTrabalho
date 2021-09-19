@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.trabalho.Gui">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="0">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.0"/>
+      <alignmentY value="0.0"/>
+      <focusable value="false"/>
+      <foreground color="-12961222"/>
+      <opaque value="true"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="6bdc5" class="javax.swing.JButton" binding="ajudaButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentY value="0.0"/>
+          <background color="-12961222"/>
+          <borderPainted value="false"/>
+          <enabled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="false"/>
+          <font name="MV Boli" size="16" style="1"/>
+          <foreground color="-5029922"/>
+          <hideActionText value="false"/>
+          <iconTextGap value="-1"/>
+          <text value="Ajuda"/>
+        </properties>
+      </component>
+      <component id="e333d" class="javax.swing.JButton" binding="removerNomeButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentY value="0.0"/>
+          <background color="-12961222"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusable value="false"/>
+          <font name="MV Boli" size="16" style="1"/>
+          <foreground color="-5029922"/>
+          <iconTextGap value="-1"/>
+          <text value="Remover Nome"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="56a09" class="javax.swing.JButton" binding="adicionarNomeButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentY value="0.0"/>
+          <background color="-12961222"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="MV Boli" size="16" style="1"/>
+          <foreground color="-5029922"/>
+          <iconTextGap value="-1"/>
+          <text value="Adicionar Nome"/>
+        </properties>
+      </component>
+      <scrollpane id="d172b" binding="scroll">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12961222"/>
+          <foreground color="-12961222"/>
+        </properties>
+        <border type="empty"/>
+        <children>
+          <component id="a1e6f" class="javax.swing.JList" binding="list1" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-10263709"/>
+              <font name="Franklin Gothic Medium" size="16" style="2"/>
+              <foreground color="-257"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
